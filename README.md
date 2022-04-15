@@ -7,6 +7,7 @@
  - Update
  - Delete
 
+<br>
 
 ## Running locally
 
@@ -34,6 +35,7 @@ Start the server
   yarn dev
 ```
 
+<br>
 
 ## Testing
 
