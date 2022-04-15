@@ -2,7 +2,7 @@ const express = require("express");
 const server = express();
 server.use(express.json());
 
-const users = ["hiro", "sherlott", "haiyori", "pessoal do rh", "cara q faz os testes"];
+const users = ["hiro", "sherlott", "haiyori", "test", "test1"];
 
 server.use((req, res, next) => {
     console.time("Request");
