@@ -49,16 +49,19 @@ Start the server
 }
 ```
 
-▶ Read (GET):
-#### all:
+<br>
+
+#### ▶ Read (GET):
+- ##### all:
 ```url
   http://localhost:3000/users
 ```
-
-#### one:
+- ##### one:
 ```url
   http://localhost:3000/users/1
 ```
+
+<br>
 
 ▶ Update (PUT):
 ```url
@@ -69,6 +72,8 @@ Start the server
   "name": "name_test"
 }
 ```
+
+<br>
 
 ▶ Delete (DEL):
 ```url
