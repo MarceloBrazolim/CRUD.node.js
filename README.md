@@ -40,11 +40,9 @@ Start the server
 #### To run the tests, input the following commands on [Insomnia](https://insomnia.rest/download):
 
 ▶ Create (POST):
-  - _URL_
 ```url
   http://localhost:3000/users
 ```
-  - _JSON_
 ```json
 {
   "name": "test_name"
@@ -53,31 +51,26 @@ Start the server
 
 ▶ Read (GET):
 #### all:
-  - _URL_
 ```url
   http://localhost:3000/users
 ```
 
 #### one:
-  - _URL_
 ```url
   http://localhost:3000/users/1
 ```
 
 ▶ Update (PUT):
-  - _URL_
 ```url
   http://localhost:3000/users/1
 ```
-  - _JSON_
 ```json
 {
-	"name": "name_test"
+  "name": "name_test"
 }
 ```
 
 ▶ Delete (DEL):
-  - _URL_
 ```url
   http://localhost:3000/users/1
 ```
